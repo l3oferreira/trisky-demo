@@ -16,14 +16,8 @@
         <script type="text/javascript" src="js/AbstractViewer.js?100000001" charset="UTF-8"></script>
         <script type="text/javascript" src="js/CommentsViewer.js?100000001" charset="UTF-8"></script>
     
-            <script type="text/javascript" src="js/GalleryViewer.js?100000001" charset="UTF-8"></script>
-            
         <script type="text/javascript" src="js/PresenterViewer.js?100000001" charset="UTF-8"></script>
 	
-                <script type="text/javascript" src="data/handoff.js?100000001" charset="UTF-8"></script>        
-		            
-        <script type="text/javascript" src="js/SymbolViewer.js?100000001" charset="UTF-8"></script>
-		
         <script type="text/javascript" src="js/InfoViewer.js?100000001" charset="UTF-8"></script>
         <script type="text/javascript">
     
@@ -624,17 +618,11 @@
     </div>
     </div>
     <!--  GENERATE MENU -->
-    <div ID = "nav" class="nav">
+    <div ID = "nav" class="hidden">
     <div class="navLeft">
     
             <div ID="menu" class="menu">
                 <div class="groupe" ID="">
-                <div ID="symbols" class ="item" onclick="viewer.hideMenu(); viewer.symbolViewer.toggle();; return false; ">
-                    <svg class ='svgIcon'><use xlink: href="#icElementInspector"></use></svg>
-                    <span>Handoff</span>
-                    <div class ="tips">M</div>
-                </div>
-                
                 <div ID="embed" class ="item" onclick="viewer.hideMenu(); viewer.share();; return false; ">
                     <svg class ='svgIcon'><use xlink: href="#icEmbed"></use></svg>
                     <span>Embed code</span>
@@ -715,12 +703,6 @@
             </div>
             <hr>
 <div class="groupe" ID="">
-                <div ID="" class ="item" onclick="viewer.hideMenu(); viewer.galleryViewer.show(); return false; ">
-                    <svg class ='svgIcon'><use xlink: href="#icGrid"></use></svg>
-                    <span>View Map</span>
-                    <div class ="tips">G</div>
-                </div>
-                
                 <div ID="start" class ="item" onclick="viewer.hideMenu(); viewer.goToPage(0); return false; ">
                     <svg class ='svgIcon'><use xlink: href="#icBack"></use></svg>
                     <span>Go to start</span>
