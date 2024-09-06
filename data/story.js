@@ -1,5 +1,5 @@
 var story = {
- "docName": "VDI Tripla Connect",
+ "docName": "Trisky",
  "docPath": "P_P_P",
  "docVersion": 100000001,
  "ownerName": "",
@@ -15,7 +15,7 @@ var story = {
  "galleryDecorNodesEnabled": true,
  "zoomEnabled": true,
  "cloud": false,
- "title": "VDI Tripla Connect",
+ "title": "Trisky",
  "layersExist": false,
  "pages": [
   {
