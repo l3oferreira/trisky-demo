@@ -55,17 +55,18 @@
     position: absolute;
     cursor: pointer;
     opacity: 0;
-    transition: opacity 0.5s;
-    background-color: #99DFFB;
+    transition: opacity 0.1s;
+    /*background-color: #536166; */
     pointer-events: auto;
+   /* border:1px 0px 0px 0px solid gray ; */
 }
 
 .linkHoverDiv {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-    transition: opacity 0.5s;
-    background-color: #99DFFB;
+    /*transition: opacity 0.8s;*/
+    /*background-color: #536166; */
     pointer-events: auto;
 }
 
