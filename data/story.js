@@ -1,5 +1,5 @@
 var story = {
- "docName": "Trisky",
+ "docName": "TRISKY DESKTOP",
  "docPath": "P_P_P",
  "docVersion": 100000001,
  "ownerName": "",
@@ -15,31 +15,15 @@ var story = {
  "galleryDecorNodesEnabled": true,
  "zoomEnabled": true,
  "cloud": false,
- "title": "Trisky",
+ "title": "TRISKY DESKTOP",
  "layersExist": false,
  "pages": [
   {
-   "id": "352:209",
-   "groupIndex": 0,
-   "title": "NOVAS TELAS",
-   "image": "novas-telas.png",
-   "index": 0,
-   "width": 9468,
-   "height": 528,
-   "x": -76,
-   "y": -4573,
-   "isFrame": true,
-   "type": "regular",
-   "fixedPanels": [],
-   "links": [],
-   "layout": null
-  },
-  {
    "id": "438:403",
    "groupIndex": 0,
-   "title": "Login ok",
-   "image": "login-ok.png",
-   "index": 1,
+   "title": "Login",
+   "image": "login.png",
+   "index": 0,
    "width": 3445,
    "height": 2208,
    "x": 317,
@@ -62,8 +46,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 1,
-       "frameIndex": 3,
+       "srcPageIndex": 0,
+       "frameIndex": 2,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -84,8 +68,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 1,
-       "frameIndex": 9,
+       "srcPageIndex": 0,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -100,7 +84,7 @@ var story = {
    "groupIndex": 0,
    "title": "Login 2",
    "image": "login-2.png",
-   "index": 2,
+   "index": 1,
    "width": 3445,
    "height": 2208,
    "x": 317,
@@ -114,9 +98,9 @@ var story = {
   {
    "id": "317:2854",
    "groupIndex": 0,
-   "title": "Dashboard 2",
-   "image": "dashboard-2.png",
-   "index": 3,
+   "title": "Painel",
+   "image": "painel.png",
+   "index": 2,
    "width": 3200,
    "height": 3200,
    "x": 3980,
@@ -139,8 +123,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 3,
-       "frameIndex": 5,
+       "srcPageIndex": 2,
+       "frameIndex": 4,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -167,8 +151,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 3,
-       "frameIndex": 4,
+       "srcPageIndex": 2,
+       "frameIndex": 3,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -195,8 +179,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 3,
-       "frameIndex": 1,
+       "srcPageIndex": 2,
+       "frameIndex": 0,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -217,8 +201,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 3,
-       "frameIndex": 8,
+       "srcPageIndex": 2,
+       "frameIndex": 7,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -239,8 +223,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 3,
-       "frameIndex": 7,
+       "srcPageIndex": 2,
+       "frameIndex": 6,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -261,8 +245,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 3,
-       "frameIndex": 6,
+       "srcPageIndex": 2,
+       "frameIndex": 5,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -277,7 +261,7 @@ var story = {
    "groupIndex": 0,
    "title": "Popover Notification",
    "image": "popover-notification.png",
-   "index": 4,
+   "index": 3,
    "width": 337.20001220703125,
    "height": 374,
    "x": 6418.7998046875,
@@ -293,7 +277,7 @@ var story = {
    "groupIndex": 0,
    "title": "Popover Perfil",
    "image": "popover-perfil.png",
-   "index": 5,
+   "index": 4,
    "width": 337.20001220703125,
    "height": 374,
    "x": 6798.7998046875,
@@ -303,28 +287,6 @@ var story = {
    "fixedPanels": [],
    "links": [
     {
-     "name": "profile",
-     "rect": {
-      "x": 52.2001953125,
-      "y": 37,
-      "width": 117,
-      "height": 36
-     },
-     "index": 8,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "NAVIGATE",
-       "trigger": "ON_CLICK",
-       "srcPageIndex": 5,
-       "frameIndex": 3,
-       "transAnimType": 0,
-       "transAnimDuration": 300,
-       "tmpDestModal": false
-      }
-     ]
-    },
-    {
      "name": "sair",
      "rect": {
       "x": 50.2001953125,
@@ -332,14 +294,14 @@ var story = {
       "width": 268,
       "height": 59
      },
-     "index": 9,
+     "index": 8,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 5,
-       "frameIndex": 1,
+       "srcPageIndex": 4,
+       "frameIndex": 0,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -352,9 +314,9 @@ var story = {
   {
    "id": "320:622",
    "groupIndex": 0,
-   "title": "Geo IP",
-   "image": "geo-ip.png",
-   "index": 6,
+   "title": "Geolocalizacao",
+   "image": "geolocalizacao.png",
+   "index": 5,
    "width": 3200,
    "height": 3200,
    "x": 7364,
@@ -371,14 +333,14 @@ var story = {
       "width": 299,
       "height": 194
      },
-     "index": 10,
+     "index": 9,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 5,
+       "srcPageIndex": 5,
+       "frameIndex": 4,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -399,14 +361,14 @@ var story = {
       "width": 121,
       "height": 136
      },
-     "index": 11,
+     "index": 10,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 4,
+       "srcPageIndex": 5,
+       "frameIndex": 3,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -427,14 +389,14 @@ var story = {
       "width": 1275,
       "height": 457
      },
-     "index": 12,
+     "index": 11,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 7,
+       "srcPageIndex": 5,
+       "frameIndex": 6,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -449,14 +411,14 @@ var story = {
       "width": 242.14903259277344,
       "height": 69.32947540283203
      },
-     "index": 13,
+     "index": 12,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 1,
+       "srcPageIndex": 5,
+       "frameIndex": 0,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -471,14 +433,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 14,
+     "index": 13,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 3,
+       "srcPageIndex": 5,
+       "frameIndex": 2,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -493,14 +455,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 15,
+     "index": 14,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 8,
+       "srcPageIndex": 5,
+       "frameIndex": 7,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -509,8 +471,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 8,
+       "srcPageIndex": 5,
+       "frameIndex": 7,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -525,14 +487,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 16,
+     "index": 15,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 7,
+       "srcPageIndex": 5,
+       "frameIndex": 6,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -547,14 +509,14 @@ var story = {
       "width": 274,
       "height": 45
      },
-     "index": 17,
+     "index": 16,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 6,
+       "srcPageIndex": 5,
+       "frameIndex": 5,
        "disableAutoScroll": true,
        "transAnimType": 0,
        "transAnimDuration": 300,
@@ -570,7 +532,7 @@ var story = {
    "groupIndex": 0,
    "title": "Dispositivos",
    "image": "dispositivos.png",
-   "index": 7,
+   "index": 6,
    "width": 3200,
    "height": 2350,
    "x": 10728,
@@ -587,14 +549,14 @@ var story = {
       "width": 299,
       "height": 194
      },
-     "index": 18,
+     "index": 17,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 5,
+       "srcPageIndex": 6,
+       "frameIndex": 4,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -615,14 +577,14 @@ var story = {
       "width": 121,
       "height": 136
      },
-     "index": 19,
+     "index": 18,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 4,
+       "srcPageIndex": 6,
+       "frameIndex": 3,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -643,14 +605,14 @@ var story = {
       "width": 49,
       "height": 59
      },
-     "index": 20,
+     "index": 19,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 3,
+       "srcPageIndex": 6,
+       "frameIndex": 2,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -665,14 +627,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 21,
+     "index": 20,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 3,
+       "srcPageIndex": 6,
+       "frameIndex": 2,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -687,14 +649,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 22,
+     "index": 21,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 8,
+       "srcPageIndex": 6,
+       "frameIndex": 7,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -703,8 +665,8 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 8,
+       "srcPageIndex": 6,
+       "frameIndex": 7,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -719,14 +681,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 23,
+     "index": 22,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 7,
+       "srcPageIndex": 6,
+       "frameIndex": 6,
        "disableAutoScroll": true,
        "transAnimType": 0,
        "transAnimDuration": 300,
@@ -742,14 +704,14 @@ var story = {
       "width": 274,
       "height": 45
      },
-     "index": 24,
+     "index": 23,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 6,
+       "srcPageIndex": 6,
+       "frameIndex": 5,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -764,14 +726,14 @@ var story = {
       "width": 2919,
       "height": 1097
      },
-     "index": 25,
+     "index": 24,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 8,
+       "srcPageIndex": 6,
+       "frameIndex": 7,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -786,7 +748,7 @@ var story = {
    "groupIndex": 0,
    "title": "VDIs",
    "image": "vdis.png",
-   "index": 8,
+   "index": 7,
    "width": 3200,
    "height": 2350,
    "x": 14067,
@@ -803,14 +765,14 @@ var story = {
       "width": 299,
       "height": 194
      },
-     "index": 26,
+     "index": 25,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 5,
+       "srcPageIndex": 7,
+       "frameIndex": 4,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -831,14 +793,14 @@ var story = {
       "width": 121,
       "height": 136
      },
-     "index": 27,
+     "index": 26,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 4,
+       "srcPageIndex": 7,
+       "frameIndex": 3,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -859,14 +821,14 @@ var story = {
       "width": 242.14903259277344,
       "height": 69.32947540283203
      },
-     "index": 28,
+     "index": 27,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 1,
+       "srcPageIndex": 7,
+       "frameIndex": 0,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -881,14 +843,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 29,
+     "index": 28,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 3,
+       "srcPageIndex": 7,
+       "frameIndex": 2,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -903,14 +865,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 30,
+     "index": 29,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 8,
+       "srcPageIndex": 7,
+       "frameIndex": 7,
        "disableAutoScroll": true,
        "transAnimType": 0,
        "transAnimDuration": 300,
@@ -926,14 +888,14 @@ var story = {
       "width": 216,
       "height": 45
      },
-     "index": 31,
+     "index": 30,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 7,
+       "srcPageIndex": 7,
+       "frameIndex": 6,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -948,14 +910,14 @@ var story = {
       "width": 274,
       "height": 45
      },
-     "index": 32,
+     "index": 31,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 6,
+       "srcPageIndex": 7,
+       "frameIndex": 5,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -970,7 +932,7 @@ var story = {
    "groupIndex": 0,
    "title": "Client Trisky 1",
    "image": "client-trisky-1.png",
-   "index": 9,
+   "index": 8,
    "width": 3445,
    "height": 2208,
    "x": 18207,
@@ -987,14 +949,14 @@ var story = {
       "width": 418,
       "height": 123
      },
-     "index": 33,
+     "index": 32,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 9,
-       "frameIndex": 11,
+       "srcPageIndex": 8,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1009,14 +971,14 @@ var story = {
       "width": 126.16008758544922,
       "height": 71.38343811035156
      },
-     "index": 34,
+     "index": 33,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 9,
-       "frameIndex": 1,
+       "srcPageIndex": 8,
+       "frameIndex": 0,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1031,7 +993,7 @@ var story = {
    "groupIndex": 0,
    "title": "Client Trisky 2",
    "image": "client-trisky-2.png",
-   "index": 10,
+   "index": 9,
    "width": 3445,
    "height": 2208,
    "x": 21813,
@@ -1048,14 +1010,14 @@ var story = {
       "width": 418,
       "height": 123
      },
-     "index": 35,
+     "index": 34,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 10,
-       "frameIndex": 11,
+       "srcPageIndex": 9,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1070,14 +1032,14 @@ var story = {
       "width": 126.16008758544922,
       "height": 71.38343811035156
      },
-     "index": 36,
+     "index": 35,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 10,
-       "frameIndex": 1,
+       "srcPageIndex": 9,
+       "frameIndex": 0,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1092,7 +1054,7 @@ var story = {
    "groupIndex": 0,
    "title": "Client Trisky 3",
    "image": "client-trisky-3.png",
-   "index": 11,
+   "index": 10,
    "width": 3445,
    "height": 2208,
    "x": 25399,
@@ -1109,14 +1071,14 @@ var story = {
       "width": 428,
       "height": 123
      },
-     "index": 37,
+     "index": 36,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 11,
-       "frameIndex": 9,
+       "srcPageIndex": 10,
+       "frameIndex": 8,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1131,14 +1093,14 @@ var story = {
       "width": 126.16008758544922,
       "height": 71.38343811035156
      },
-     "index": 38,
+     "index": 37,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 11,
-       "frameIndex": 1,
+       "srcPageIndex": 10,
+       "frameIndex": 0,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1153,14 +1115,14 @@ var story = {
       "width": 299,
       "height": 194
      },
-     "index": 39,
+     "index": 38,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 11,
-       "frameIndex": 5,
+       "srcPageIndex": 10,
+       "frameIndex": 4,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -1181,14 +1143,14 @@ var story = {
       "width": 121,
       "height": 136
      },
-     "index": 40,
+     "index": 39,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 11,
-       "frameIndex": 4,
+       "srcPageIndex": 10,
+       "frameIndex": 3,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -1205,8 +1167,8 @@ var story = {
    "layout": null
   }
  ],
- "startPageIndex": 1,
- "totalImages": 12,
+ "startPageIndex": 0,
+ "totalImages": 11,
  "groups": [
   {
    "id": "0:1",
