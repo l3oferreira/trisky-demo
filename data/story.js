@@ -1,5 +1,5 @@
 var story = {
- "docName": "TRISKY DESKTOP",
+ "docName": "TRISKY",
  "docPath": "P_P_P",
  "docVersion": 100000001,
  "ownerName": "",
@@ -15,7 +15,7 @@ var story = {
  "galleryDecorNodesEnabled": true,
  "zoomEnabled": true,
  "cloud": false,
- "title": "TRISKY DESKTOP",
+ "title": "TRISKY",
  "layersExist": false,
  "pages": [
   {
