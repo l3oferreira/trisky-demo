@@ -69,7 +69,7 @@ var story = {
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
        "srcPageIndex": 0,
-       "frameIndex": 9,
+       "frameIndex": 13,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -186,7 +186,7 @@ var story = {
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
        "srcPageIndex": 1,
-       "frameIndex": 6,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -446,7 +446,7 @@ var story = {
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
        "srcPageIndex": 4,
-       "frameIndex": 6,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -456,7 +456,7 @@ var story = {
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
        "srcPageIndex": 4,
-       "frameIndex": 6,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -640,7 +640,7 @@ var story = {
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
        "srcPageIndex": 5,
-       "frameIndex": 6,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -650,7 +650,7 @@ var story = {
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
        "srcPageIndex": 5,
-       "frameIndex": 6,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -728,14 +728,14 @@ var story = {
    "layout": null
   },
   {
-   "id": "371:4605",
+   "id": "530:1441",
    "groupIndex": 0,
-   "title": "VDIs",
-   "image": "vdis.png",
+   "title": "Dispositivo HARDWARE",
+   "image": "dispositivo-hardware.png",
    "index": 6,
    "width": 3200,
    "height": 2350,
-   "x": 14067,
+   "x": 14104,
    "y": -3857,
    "isFrame": true,
    "type": "regular",
@@ -744,7 +744,7 @@ var story = {
     {
      "name": "User",
      "rect": {
-      "x": 2832,
+      "x": 2782,
       "y": -2,
       "width": 299,
       "height": 194
@@ -772,7 +772,7 @@ var story = {
     {
      "name": "Rectangle 1790",
      "rect": {
-      "x": 2679,
+      "x": 2629,
       "y": -1,
       "width": 121,
       "height": 136
@@ -798,12 +798,12 @@ var story = {
      ]
     },
     {
-     "name": "Group",
+     "name": "logo",
      "rect": {
-      "x": 127.92578125,
-      "y": 38.3291015625,
-      "width": 242.14903259277344,
-      "height": 69.32947540283203
+      "x": 48,
+      "y": 43,
+      "width": 49,
+      "height": 59
      },
      "index": 27,
      "reactions": [
@@ -812,7 +812,7 @@ var story = {
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
        "srcPageIndex": 6,
-       "frameIndex": 0,
+       "frameIndex": 1,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -822,7 +822,7 @@ var story = {
     {
      "name": "nav",
      "rect": {
-      "x": 73,
+      "x": 57,
       "y": 253,
       "width": 216,
       "height": 45
@@ -844,7 +844,7 @@ var story = {
     {
      "name": "nav",
      "rect": {
-      "x": 73,
+      "x": 57,
       "y": 353,
       "width": 216,
       "height": 45
@@ -856,8 +856,17 @@ var story = {
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
        "srcPageIndex": 6,
-       "frameIndex": 6,
-       "disableAutoScroll": true,
+       "frameIndex": 10,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      },
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 6,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -867,7 +876,7 @@ var story = {
     {
      "name": "nav",
      "rect": {
-      "x": 73,
+      "x": 57,
       "y": 453,
       "width": 216,
       "height": 45
@@ -889,7 +898,7 @@ var story = {
     {
      "name": "nav",
      "rect": {
-      "x": 81,
+      "x": 65,
       "y": 553,
       "width": 274,
       "height": 45
@@ -907,31 +916,14 @@ var story = {
        "tmpDestModal": false
       }
      ]
-    }
-   ],
-   "layout": null
-  },
-  {
-   "id": "352:210",
-   "groupIndex": 0,
-   "title": "Client Trisky 1",
-   "image": "client-trisky-1.png",
-   "index": 7,
-   "width": 3445,
-   "height": 2208,
-   "x": 18207,
-   "y": -3857,
-   "isFrame": true,
-   "type": "regular",
-   "fixedPanels": [],
-   "links": [
+    },
     {
-     "name": "btn filtrar",
+     "name": "Rectangle 1793",
      "rect": {
-      "x": 1081,
-      "y": 1015,
-      "width": 418,
-      "height": 123
+      "x": 1722,
+      "y": 262,
+      "width": 206,
+      "height": 117
      },
      "index": 32,
      "reactions": [
@@ -939,7 +931,7 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
+       "srcPageIndex": 6,
        "frameIndex": 9,
        "transAnimType": 0,
        "transAnimDuration": 300,
@@ -948,12 +940,12 @@ var story = {
      ]
     },
     {
-     "name": "tripla logo",
+     "name": "Rectangle 1795",
      "rect": {
-      "x": 62.83984375,
-      "y": 34.98681640625,
-      "width": 126.16008758544922,
-      "height": 71.38343811035156
+      "x": 1487,
+      "y": 262,
+      "width": 235,
+      "height": 117
      },
      "index": 33,
      "reactions": [
@@ -961,107 +953,7 @@ var story = {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 7,
-       "frameIndex": 0,
-       "transAnimType": 0,
-       "transAnimDuration": 300,
-       "tmpDestModal": false
-      }
-     ]
-    }
-   ],
-   "layout": null
-  },
-  {
-   "id": "443:3547",
-   "groupIndex": 0,
-   "title": "Client Trisky 2",
-   "image": "client-trisky-2.png",
-   "index": 8,
-   "width": 3445,
-   "height": 2208,
-   "x": 21813,
-   "y": -3857,
-   "isFrame": true,
-   "type": "regular",
-   "fixedPanels": [],
-   "links": [
-    {
-     "name": "btn filtrar",
-     "rect": {
-      "x": 1081,
-      "y": 1015,
-      "width": 418,
-      "height": 123
-     },
-     "index": 34,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "NAVIGATE",
-       "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 9,
-       "transAnimType": 0,
-       "transAnimDuration": 300,
-       "tmpDestModal": false
-      }
-     ]
-    },
-    {
-     "name": "tripla logo",
-     "rect": {
-      "x": 62.83984375,
-      "y": 34.98681640625,
-      "width": 126.16008758544922,
-      "height": 71.38343811035156
-     },
-     "index": 35,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "NAVIGATE",
-       "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 0,
-       "transAnimType": 0,
-       "transAnimDuration": 300,
-       "tmpDestModal": false
-      }
-     ]
-    }
-   ],
-   "layout": null
-  },
-  {
-   "id": "443:2651",
-   "groupIndex": 0,
-   "title": "Client Trisky 3",
-   "image": "client-trisky-3.png",
-   "index": 9,
-   "width": 3445,
-   "height": 2208,
-   "x": 25399,
-   "y": -3857,
-   "isFrame": true,
-   "type": "regular",
-   "fixedPanels": [],
-   "links": [
-    {
-     "name": "btn filtrar",
-     "rect": {
-      "x": 1074,
-      "y": 547,
-      "width": 428,
-      "height": 123
-     },
-     "index": 36,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "NAVIGATE",
-       "trigger": "ON_CLICK",
-       "srcPageIndex": 9,
+       "srcPageIndex": 6,
        "frameIndex": 7,
        "transAnimType": 0,
        "transAnimDuration": 300,
@@ -1070,21 +962,66 @@ var story = {
      ]
     },
     {
-     "name": "tripla logo",
+     "name": "Rectangle 1798",
      "rect": {
-      "x": 62.83984375,
-      "y": 34.98681640625,
-      "width": 126.16008758544922,
-      "height": 71.38343811035156
+      "x": 3027,
+      "y": 0,
+      "width": 174,
+      "height": 142
      },
-     "index": 37,
+     "index": 34,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 9,
-       "frameIndex": 0,
+       "srcPageIndex": 6,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    }
+   ],
+   "layout": null
+  },
+  {
+   "id": "536:792",
+   "groupIndex": 0,
+   "title": "Dispositivo CONSUMO 1",
+   "image": "dispositivo-consumo-1.png",
+   "index": 7,
+   "width": 3200,
+   "height": 2350,
+   "x": 17344,
+   "y": -3857,
+   "isFrame": true,
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
+     "name": "User",
+     "rect": {
+      "x": 2782,
+      "y": -2,
+      "width": 299,
+      "height": 194
+     },
+     "index": 35,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 3,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -38,
+       "overlayPinHotspotY": 130,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1092,14 +1029,659 @@ var story = {
      ]
     },
     {
+     "name": "Rectangle 1790",
+     "rect": {
+      "x": 2629,
+      "y": -1,
+      "width": 121,
+      "height": 136
+     },
+     "index": 36,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 2,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -82,
+       "overlayPinHotspotY": 314,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "logo",
+     "rect": {
+      "x": 48,
+      "y": 43,
+      "width": 49,
+      "height": 59
+     },
+     "index": 37,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 1,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 253,
+      "width": 216,
+      "height": 45
+     },
+     "index": 38,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 1,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 353,
+      "width": 216,
+      "height": 45
+     },
+     "index": 39,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 10,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      },
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 10,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 453,
+      "width": 216,
+      "height": 45
+     },
+     "index": 40,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 65,
+      "y": 553,
+      "width": 274,
+      "height": 45
+     },
+     "index": 41,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 4,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Tabela",
+     "rect": {
+      "x": 207,
+      "y": 964,
+      "width": 2919,
+      "height": 1097
+     },
+     "index": 42,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 10,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1793",
+     "rect": {
+      "x": 1722,
+      "y": 262,
+      "width": 206,
+      "height": 117
+     },
+     "index": 43,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 9,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1794",
+     "rect": {
+      "x": 1265,
+      "y": 262,
+      "width": 222,
+      "height": 117
+     },
+     "index": 44,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 6,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1795",
+     "rect": {
+      "x": 1487,
+      "y": 262,
+      "width": 235,
+      "height": 117
+     },
+     "index": 45,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 7,
+       "disableAutoScroll": true,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1798",
+     "rect": {
+      "x": 3027,
+      "y": 1,
+      "width": 174,
+      "height": 142
+     },
+     "index": 46,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Hardware",
+     "rect": {
+      "x": 1233,
+      "y": 416,
+      "width": 1294,
+      "height": 1998
+     },
+     "index": 47,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 8,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "SCROLLBAR",
+     "rect": {
+      "x": 2498,
+      "y": 415,
+      "width": 10,
+      "height": 800
+     },
+     "index": 48,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 7,
+       "frameIndex": 8,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    }
+   ],
+   "layout": null
+  },
+  {
+   "id": "536:2242",
+   "groupIndex": 0,
+   "title": "Dispositivo CONSUMO 2",
+   "image": "dispositivo-consumo-2.png",
+   "index": 8,
+   "width": 3200,
+   "height": 2350,
+   "x": 20584,
+   "y": -3857,
+   "isFrame": true,
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
      "name": "User",
      "rect": {
-      "x": 3083,
+      "x": 2782,
       "y": -2,
       "width": 299,
       "height": 194
      },
-     "index": 38,
+     "index": 49,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 3,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -38,
+       "overlayPinHotspotY": 130,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1790",
+     "rect": {
+      "x": 2629,
+      "y": -1,
+      "width": 121,
+      "height": 136
+     },
+     "index": 50,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 2,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -82,
+       "overlayPinHotspotY": 314,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "logo",
+     "rect": {
+      "x": 48,
+      "y": 43,
+      "width": 49,
+      "height": 59
+     },
+     "index": 51,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 1,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 253,
+      "width": 216,
+      "height": 45
+     },
+     "index": 52,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 1,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 353,
+      "width": 216,
+      "height": 45
+     },
+     "index": 53,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 10,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      },
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 10,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 453,
+      "width": 216,
+      "height": 45
+     },
+     "index": 54,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 65,
+      "y": 553,
+      "width": 274,
+      "height": 45
+     },
+     "index": 55,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 4,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1793",
+     "rect": {
+      "x": 1722,
+      "y": 262,
+      "width": 206,
+      "height": 117
+     },
+     "index": 56,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 9,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1794",
+     "rect": {
+      "x": 1265,
+      "y": 262,
+      "width": 222,
+      "height": 117
+     },
+     "index": 57,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 6,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1795",
+     "rect": {
+      "x": 1487,
+      "y": 262,
+      "width": 235,
+      "height": 117
+     },
+     "index": 58,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 7,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1798",
+     "rect": {
+      "x": 3027,
+      "y": 1,
+      "width": 174,
+      "height": 142
+     },
+     "index": 59,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "CONSUMO",
+     "rect": {
+      "x": 1233,
+      "y": 416,
+      "width": 1294,
+      "height": 1998
+     },
+     "index": 60,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 7,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "SCROLLBAR",
+     "rect": {
+      "x": 2498,
+      "y": 1504,
+      "width": 10,
+      "height": 800
+     },
+     "index": 61,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 8,
+       "frameIndex": 7,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    }
+   ],
+   "layout": null
+  },
+  {
+   "id": "536:3570",
+   "groupIndex": 0,
+   "title": "Dispositivo ALERTAS",
+   "image": "dispositivo-alertas.png",
+   "index": 9,
+   "width": 3200,
+   "height": 2350,
+   "x": 23844,
+   "y": -3857,
+   "isFrame": true,
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
+     "name": "User",
+     "rect": {
+      "x": 2782,
+      "y": -2,
+      "width": 299,
+      "height": 194
+     },
+     "index": 62,
      "reactions": [
       {
        "action": "FRAME",
@@ -1122,12 +1704,12 @@ var story = {
     {
      "name": "Rectangle 1790",
      "rect": {
-      "x": 2930,
-      "y": -5,
+      "x": 2629,
+      "y": -1,
       "width": 121,
       "height": 136
      },
-     "index": 39,
+     "index": 63,
      "reactions": [
       {
        "action": "FRAME",
@@ -1146,13 +1728,784 @@ var story = {
        "tmpDestModal": false
       }
      ]
+    },
+    {
+     "name": "logo",
+     "rect": {
+      "x": 48,
+      "y": 43,
+      "width": 49,
+      "height": 59
+     },
+     "index": 64,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 1,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 253,
+      "width": 216,
+      "height": 45
+     },
+     "index": 65,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 1,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 353,
+      "width": 216,
+      "height": 45
+     },
+     "index": 66,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 10,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      },
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 10,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 57,
+      "y": 453,
+      "width": 216,
+      "height": 45
+     },
+     "index": 67,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 65,
+      "y": 553,
+      "width": 274,
+      "height": 45
+     },
+     "index": 68,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 4,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1793",
+     "rect": {
+      "x": 1722,
+      "y": 262,
+      "width": 206,
+      "height": 117
+     },
+     "index": 69,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 9,
+       "disableAutoScroll": true,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1794",
+     "rect": {
+      "x": 1265,
+      "y": 262,
+      "width": 222,
+      "height": 117
+     },
+     "index": 70,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 6,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1795",
+     "rect": {
+      "x": 1487,
+      "y": 262,
+      "width": 235,
+      "height": 117
+     },
+     "index": 71,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 7,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1798",
+     "rect": {
+      "x": 3027,
+      "y": 1,
+      "width": 174,
+      "height": 142
+     },
+     "index": 72,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Tabela",
+     "rect": {
+      "x": 1283,
+      "y": 432,
+      "width": 1198,
+      "height": 556
+     },
+     "index": 73,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 9,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    }
+   ],
+   "layout": null
+  },
+  {
+   "id": "371:4605",
+   "groupIndex": 0,
+   "title": "VDIs",
+   "image": "vdis.png",
+   "index": 10,
+   "width": 3200,
+   "height": 2350,
+   "x": 27145,
+   "y": -3857,
+   "isFrame": true,
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
+     "name": "User",
+     "rect": {
+      "x": 2832,
+      "y": -2,
+      "width": 299,
+      "height": 194
+     },
+     "index": 74,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 10,
+       "frameIndex": 3,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -38,
+       "overlayPinHotspotY": 130,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1790",
+     "rect": {
+      "x": 2679,
+      "y": -1,
+      "width": 121,
+      "height": 136
+     },
+     "index": 75,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 10,
+       "frameIndex": 2,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -82,
+       "overlayPinHotspotY": 314,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Group",
+     "rect": {
+      "x": 127.92578125,
+      "y": 38.3291015625,
+      "width": 242.14903259277344,
+      "height": 69.32947540283203
+     },
+     "index": 76,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 10,
+       "frameIndex": 0,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 73,
+      "y": 253,
+      "width": 216,
+      "height": 45
+     },
+     "index": 77,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 10,
+       "frameIndex": 1,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 73,
+      "y": 353,
+      "width": 216,
+      "height": 45
+     },
+     "index": 78,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 10,
+       "frameIndex": 10,
+       "disableAutoScroll": true,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 73,
+      "y": 453,
+      "width": 216,
+      "height": 45
+     },
+     "index": 79,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 10,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "nav",
+     "rect": {
+      "x": 81,
+      "y": 553,
+      "width": 274,
+      "height": 45
+     },
+     "index": 80,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 10,
+       "frameIndex": 4,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    }
+   ],
+   "layout": null
+  },
+  {
+   "id": "352:210",
+   "groupIndex": 0,
+   "title": "Client Trisky 1",
+   "image": "client-trisky-1.png",
+   "index": 11,
+   "width": 3445,
+   "height": 2208,
+   "x": 30493,
+   "y": -3857,
+   "isFrame": true,
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
+     "name": "btn filtrar",
+     "rect": {
+      "x": 1081,
+      "y": 1015,
+      "width": 418,
+      "height": 123
+     },
+     "index": 81,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 11,
+       "frameIndex": 13,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "tripla logo",
+     "rect": {
+      "x": 62.83984375,
+      "y": 34.98681640625,
+      "width": 126.16008758544922,
+      "height": 71.38343811035156
+     },
+     "index": 82,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 11,
+       "frameIndex": 0,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    }
+   ],
+   "layout": null
+  },
+  {
+   "id": "443:3547",
+   "groupIndex": 0,
+   "title": "Client Trisky 2",
+   "image": "client-trisky-2.png",
+   "index": 12,
+   "width": 3445,
+   "height": 2208,
+   "x": 34099,
+   "y": -3857,
+   "isFrame": true,
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
+     "name": "btn filtrar",
+     "rect": {
+      "x": 1081,
+      "y": 1015,
+      "width": 418,
+      "height": 123
+     },
+     "index": 83,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 12,
+       "frameIndex": 13,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "tripla logo",
+     "rect": {
+      "x": 62.83984375,
+      "y": 34.98681640625,
+      "width": 126.16008758544922,
+      "height": 71.38343811035156
+     },
+     "index": 84,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 12,
+       "frameIndex": 0,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    }
+   ],
+   "layout": null
+  },
+  {
+   "id": "443:2651",
+   "groupIndex": 0,
+   "title": "Client Trisky 3",
+   "image": "client-trisky-3.png",
+   "index": 13,
+   "width": 3445,
+   "height": 2208,
+   "x": 37685,
+   "y": -3857,
+   "isFrame": true,
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
+     "name": "btn filtrar",
+     "rect": {
+      "x": 1073,
+      "y": 547,
+      "width": 418,
+      "height": 123
+     },
+     "index": 85,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 13,
+       "frameIndex": 14,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "tripla logo",
+     "rect": {
+      "x": 62.83984375,
+      "y": 34.98681640625,
+      "width": 126.16008758544922,
+      "height": 71.38343811035156
+     },
+     "index": 86,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 13,
+       "frameIndex": 0,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "User",
+     "rect": {
+      "x": 3083,
+      "y": -2,
+      "width": 299,
+      "height": 194
+     },
+     "index": 87,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 13,
+       "frameIndex": 3,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -38,
+       "overlayPinHotspotY": 130,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1790",
+     "rect": {
+      "x": 2930,
+      "y": -5,
+      "width": 121,
+      "height": 136
+     },
+     "index": 88,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 13,
+       "frameIndex": 2,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -82,
+       "overlayPinHotspotY": 314,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    }
+   ],
+   "layout": null
+  },
+  {
+   "id": "527:540",
+   "groupIndex": 0,
+   "title": "Client Trisky 4",
+   "image": "client-trisky-4.png",
+   "index": 14,
+   "width": 3445,
+   "height": 2208,
+   "x": 41300,
+   "y": -3857,
+   "isFrame": true,
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
+     "name": "btn filtrar",
+     "rect": {
+      "x": 1074,
+      "y": 547,
+      "width": 428,
+      "height": 123
+     },
+     "index": 89,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 14,
+       "frameIndex": 13,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "tripla logo",
+     "rect": {
+      "x": 62.83984375,
+      "y": 34.98681640625,
+      "width": 126.16008758544922,
+      "height": 71.38343811035156
+     },
+     "index": 90,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 14,
+       "frameIndex": 0,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "User",
+     "rect": {
+      "x": 3083,
+      "y": -2,
+      "width": 299,
+      "height": 194
+     },
+     "index": 91,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 14,
+       "frameIndex": 3,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -38,
+       "overlayPinHotspotY": 130,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Rectangle 1790",
+     "rect": {
+      "x": 2930,
+      "y": -5,
+      "width": 121,
+      "height": 136
+     },
+     "index": 92,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 14,
+       "frameIndex": 2,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -82,
+       "overlayPinHotspotY": 314,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
     }
    ],
    "layout": null
   }
  ],
  "startPageIndex": 0,
- "totalImages": 10,
+ "totalImages": 15,
  "groups": [
   {
    "id": "0:1",
